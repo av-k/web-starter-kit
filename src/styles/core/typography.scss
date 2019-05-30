@@ -1,0 +1,15 @@
+@import "colors";
+
+// Base
+$base-bg-color: $white;
+$base-text-color: $gray-0;
+$base-loud-color: $black;
+$base-font-family: Helvetica;
+$base-font-size: 1.6em;
+$base-line-height: 1.8125;
+$base-vertical-spacing: em(24px);
+
+// Headings
+$heading-font-family: Helvetica;
+$heading-color: $base-text-color;
+$heading-font-weight: 300;

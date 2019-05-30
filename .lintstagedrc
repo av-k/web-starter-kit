@@ -1,0 +1,12 @@
+{
+  "src/**/*.js": [
+    "npm run prettier",
+    "npm run lint:js",
+    "git add"
+  ],
+  "src/**/*.scss": [
+    "npm run prettier",
+    "npm run lint:style",
+    "git add"
+  ]
+}

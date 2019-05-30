@@ -1,0 +1,10 @@
+include ../container/container
+
+mixin header(data)
+	header.header&attributes(attributes)
+		+container().header__container
+			.header__logo
+				| LOGO
+
+			.header__menu
+				| MENU

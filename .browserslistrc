@@ -1,0 +1,5 @@
+# Browserslist config for autoprefixer
+# https://github.com/ai/browserslist
+
+# All browsers
+last 2 versions

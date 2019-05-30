@@ -1,0 +1,16 @@
+extends ../layouts/default
+include ../components/footer/footer
+include ../components/header/header
+include ../components/container/container
+
+block head
+	- page.title = "Main page"
+	- page.class = ["page_style_default"]
+
+block header
+	+header()
+
+block main
+	+container()
+		h1 Index page
+		

@@ -1,0 +1,10 @@
+---
+  config:
+    projectName: Application
+    lang: en
+    path:
+      favicons: assets/favicons
+      styles: assets/stylesheets
+      scripts: assets/javascripts
+      images: assets/images
+      fonts: assets/fonts

@@ -1,0 +1,24 @@
+include ../components/javascripts/javascripts
+include ../components/head/head
+
+doctype html
+html(class="js_no css_standard" lang=config.lang prefix="og: http://ogp.me/ns#")
+	head
+		-
+			let page = {
+				title: "",
+				class: [],
+				offcanvas: true
+			};
+
+		block head
+
+		+head({ title: page.title })
+
+		<script>;(function(d,e,c,r){e=d.documentElement;c="className";r="replace";e[c]=e[c][r]("js_no","js_yes");if(d.compatMode!="CSS1Compat")e[c]=e[c][r]("css_standart","css_quirks")})(document);</script>
+
+	body.page(class=page.class data-offcanvas-container=page.offcanvas)
+
+		block page
+
+		+javascripts()
