@@ -147,7 +147,7 @@
     "jsx-dom": "^6.3.1",
     "lodash": "^4.17.11",
     "micromodal": "^0.3.0",
-    "nanoid": "^2.0.1",
+    "nanoid": "^3.1.31",
     "normalize.css": "^8.0.1",
     "object-assign": "^4.1.1",
     "omit": "^1.0.1",
